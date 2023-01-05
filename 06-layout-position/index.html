@@ -9,29 +9,81 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative h-12 bg-red-200 w-1/2">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        <p>Absolute Child</p>
+      </div>
+    </div>
 
     <!-- Top left corner -->
+    <div class="relative h-32 bg-neutral-100 w-32">
+      <div class="absolute left-0 top-0 bg-blue-300 w-16 h-16">
+      </div>
+    </div>
 
     <!-- Top right corner -->
+    <div class="relative h-32 bg-yellow-100 w-32">
+      <div class="absolute right-0 top-0 bg-yellow-300 w-16 h-16">
+      </div>
+    </div>
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 bg-purple-100 w-32">
+      <div class="absolute left-0 bottom-0 bg-green-300 w-16 h-16">
+      </div>
+    </div>
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 bg-fuchsia-500 w-32">
+      <div class="absolute right-0 bottom-0 bg-black w-16 h-16">
+      </div>
+    </div>
 
     <!-- Span top edge -->
+    <div class="relative h-32 bg-blue-100 w-32">
+      <div class="absolute inset-x-0 top-0 bg-blue-300 h-16">
+      </div>
+    </div>
 
     <!-- Span left edge -->
+    <div class="relative h-32 bg-red-100 w-32">
+      <div class="absolute inset-y-0 left-0 bg-red-300 w-16">
+      </div>
+    </div>
 
     <!-- Span right edge -->
+    <div class="relative h-32 bg-neutral-100 w-32">
+      <div class="absolute inset-y-0 right-0 bg-neutral-300 w-16">
+      </div>
+    </div>
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 bg-orange-100 w-32">
+      <div class="absolute inset-x-0 bottom-0 bg-orange-300 h-16">
+      </div>
+    </div>
 
     <!-- Display Classes -->
+    <div>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit.<span class=" font-bold inline">This is inline </span>iure nemo beatae <span class=" font-bold inline-block">This is Inline-Block</span> atque deserunt dolore quia <span class=" font-bold block">This is block  </span>laborum aliquam sint, sit molestias nostrum placeat animi!<span class=" font-bold hidden"> This is Hidden </span>minus voluptatibus aut reiciendis enim, inventore quos. Aspernatur consectetur enim alias ratione ab neque, quos iure cupiditate accusamus?
+    </div>
 
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-blue-500 z-10">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-blue-600 z-20">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-blue-700 z-30">5</div>
+    </div>
 
     <!-- Floats -->
   </body>
+  <div class="w-1/2">
+    <img class="h-24 w-24 float-left m-4" src="../assets/img/img1.jpg" alt="">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore laudantium aliquam maiores, ipsam suscipit unde eos cupiditate, velit explicabo officiis libero non distinctio illum! Aut officiis voluptate reiciendis quis odio?</p>
+  </div>
 </html>
 
 <!-- Position Classes
