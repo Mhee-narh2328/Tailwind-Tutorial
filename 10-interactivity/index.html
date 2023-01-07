@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,25 +9,54 @@
   </head>
   <body>
     <!-- Hover State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 hover:bg-orange-500 hover:text-white">Submit</button>
 
     <!-- Focus State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 focus:bg-green-500 focus:text-white">Submit</button>
 
     <!-- Active State Styling -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 active:bg-yellow-500 active:text-black">Submit</button>
 
     <!-- Styling based on parent state -->
+    <a href="" class="group block max-w-xs max-auto rounded-lg p-6 bg-white shadow-lg space-y-3 hover:bg-sky-500">
+      <h3 class="group-hover:text-white">Card Title</h3>
+      <p class="group-hover:text-white">This is the card text</p>
+    </a>
 
     <!-- Pseudo Classes -->
+    <ul>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 1</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 2</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 3</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 4</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 5</li>
+      <li class="first:bg-red-200 even:bg-green-500 odd:bg-orange-500">item 6</li>
+    </ul>
 
     <!-- Appearance -->
     <!-- Use appearance-none to reset any browser specific styling on an element. This utility is often used when creating custom form components. -->
-
+    <select class="appearance-none">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+    </select>
+    <br/>
     <!-- Cursor -->
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-not-allowed">Submit</button>
+    <button class="bg-black text-white py-3 px-5 rounded-lg m-3 cursor-pointer">Submit</button>
 
+    <a href="#item" class="block my-6">Go To item</a>
     <!-- Resize -->
 
     <!-- User Select -->
+    <div class="select-none">Lorem ipsum dolor sit amet.</div>
+    <div class="select-text">Lorem ipsum dolor sit amet.</div>
+    <div class="select-all">Lorem ipsum dolor sit amet.</div>
+    <div class="select-auto">Lorem ipsum dolor sit amet.</div>
 
     <!-- Smooth Scroll Example -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quam mollitia officiis tempora rem earum autem consequatur iste impedit quas at consequuntur, reprehenderit cum, perspiciatis minus maxime, eius esse itaque!1000
+       Corrupti libero quam possimus culpa quae incidunt eveniet autem inventore nisi! Vero reprehenderit ea cum illum blanditiis ipsum quos dolorum, atque debitis autem, enim libero placeat, deserunt explicabo eaque. Laudantium, tempora est!</p>
+    <div id="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem reprehenderit minus labore recusandae, incidunt aperiam pariatur maiores, eos perferendis voluptas fugit id amet corporis in delectus modi quia temporibus ut magnam adipisci quasi! Deleniti alias praesentium distinctio similique possimus, veniam, pariatur a aspernatur doloribus atque consequuntur repellat eum dolorum.</div>
   </body>
 </html>
 
